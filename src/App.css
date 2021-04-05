@@ -4,6 +4,10 @@
 .fw7{font-weight: 700 !important;}
 .fw6{font-weight: 600 !important;}
 
+.blockCom{
+  transition: all .5s linear;
+}
+
 .form-control{
   border: unset;
   border-bottom: 3px solid #8dbbfe;
@@ -14,4 +18,12 @@
   border-color: #8dbbfe;
   box-shadow: unset;
   background-color: #8dbbfe;
+}
+
+.floatingTest{
+  position: fixed;
+  top: 30%;
+  right: 0px;
+  z-index: 999;
+  box-shadow: 0 0 5px;
 }
